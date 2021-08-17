@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET & POST</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-img"></div>
+        <div class="container-order">
+            <div class="order__name">Pizza "Vegetable"</div>
+            <p class="order__description">Champignons, onions, sweet peppers, corn, tomatoes, olives, cheese, sauce.</p>
+            <h4>Calculation price</h4>
+            <label for="slice">Slice/s</label>
+            <input id="slice" type="text">
+            <label for="usd">Total price USD</label>
+            <input id="usd" type="text">
+
+            <h4>Order now</h4>
+            <div class="order">
+                <form action="#">
+                    <div class="order__info">We will contact you soon!</div>
+                    <input required placeholder="Your name" name="name" type="text" class="order__input">
+                    <input required placeholder="Your phone number" name="phone" type="phone" class="order__input">
+                    <button class="btn">Call me back</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

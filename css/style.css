@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .container-img {
+    background: url("../img/2.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+  }
+}
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.container-order {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.order__name {
+  font-size: 40px;
+  margin-top: 30px;
+  color: #5c5252;
+}
+.order__description {
+  font-size: 24px;
+  margin-top: 30px;
+  color: #5c5252;
+}
+label {
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
+input {
+  width: 280px;
+  height: 40px;
+  font-size: 18px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+input.order__input {
+  margin-bottom: 20px;
+}
+.order__info {
+  font-size: 20px;
+  margin: 30px 0 30px 0;
+  color: #5c5252;
+}
+.btn {
+  height: 40px;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(57, 113, 233);
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+h4 {
+  color: chocolate;
+  margin-top: 50px;
+  font-size: 20px;
+}
